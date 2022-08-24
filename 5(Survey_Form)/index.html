@@ -1,0 +1,119 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="main">
+        <div class="header">
+            <h1 id="title" style="font-size: 2vw;">freeCodeCamp Survey Form</h1>
+            <p id=description>Thank you for taking the time to help us improve the platform</p>
+        </div>
+
+        <form action="#" id="survey-form">
+
+            <label id="name-label">
+                <p>Name</p>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </label>
+
+            <label id="email-label">
+                <p>Email</p>
+                <input type="email" id="email" placeholder="Enter your Email" required>
+            </label>
+
+            <label id="number-label">
+                <p>Age <span>(optional)</span></p>
+                <input type="number" id="number" placeholder="Age">
+            </label>
+
+            <label>
+                <p>Which option best describes your current role?</p>
+                <select id="dropdown">
+                    <option selected="selected">Select current role</option>
+                    <option>Student</option>
+                    <option>Full time Job </option>
+                    <option>Full time Learner</option>
+                    <option>Prefer not to say</option>
+                    <option>Other</option>
+                </select>
+            </label>
+
+            <label>
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <p>
+                    <input class="radio" type="radio" value="definitely" name="recommend">Definitely
+                </p>
+                <p>
+                    <input class="radio" type="radio" value="maybe" name="recommend">Maybe
+                </p>
+                <p>
+                    <input class="radio" type="radio" value="not-sure" name="recommend">Not sure
+                </p>
+            </label>
+
+            <label>
+                <p>What is your favorite feature of freeCodeCamp?</p>
+                <select id="dropdown">
+                    <option selected="selected">Select an option</option>
+                    <option>Challenges</option>
+                    <option>Projects </option>
+                    <option>Community</option>
+                    <option>Open Source</option>
+                </select>
+            </label>
+            <label>
+                <p>What would you like to see improved? <span>(Check all that apply)</span></p>
+                <p>
+                    <input class="checkbox" type="checkbox" value="improvement"> Front-end Projects
+                </p>
+                <p>
+                    <input class="checkbox" type="checkbox" value="improvement"> Back-end Projects
+                </p>
+                <p>
+                    <input class="checkbox" type="checkbox" value="improvement">Data Visualization
+                </p>
+                <p>
+                    <input class="checkbox" type="checkbox" value="improvement">Challenges
+                </p>
+                <p>
+                    <input class="checkbox" type="checkbox" value="improvement">Open Source Community
+                </p>
+                <p>
+                    <input class="checkbox" type="checkbox" value="improvement">Gitter help rooms
+                </p>
+                <p>
+                    <input class="checkbox" type="checkbox" value="improvement">Videos
+                </p>
+                <p>
+                    <input class="checkbox" type="checkbox" value="improvement">City Meetups
+                </p>
+                <p>
+                    <input class="checkbox" type="checkbox" value="improvement">Wiki
+                </p>
+                <p>
+                    <input class="checkbox" type="checkbox" value="improvement">Forum
+                </p>
+                <p>
+                    <input class="checkbox" type="checkbox" value="improvement">Additional Courses
+                </p>
+            </label>
+
+            <label>
+                <p>Any comments or suggestions?</p>
+                <textarea rows="5" placeholder="Enter your comments here..."></textarea>
+            </label>
+            <button id="submit"> Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

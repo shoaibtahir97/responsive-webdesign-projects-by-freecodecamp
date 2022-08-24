@@ -1,0 +1,112 @@
+body {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+body:before{
+    content:'';
+}
+
+#main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.header {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  color:#f3f3f3;
+  text-size-adjust: auto;
+}
+
+h1{
+    margin-bottom: 0px;
+}
+.header > p {
+  font-style: italic;
+  margin-top: 5px;
+  word-spacing: 0.1rem;
+  margin-bottom: 30px;
+  
+}
+
+label {
+  display: block;
+  margin-top: 22px;
+}
+
+form {
+  background-color: #262645;
+  color: white;
+  border-radius: 5px;
+  padding: 30px;
+  width: 40%;
+  margin: 0 auto;
+  font-size: 1rem;
+  
+}
+
+label > p {
+  width: 100%;
+  font-weight: bolder;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid blue;
+}
+
+input,
+select {
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: medium;
+  font-family: "Poppins", sans-serif;
+}
+
+span {
+  font-weight: normal;
+  font-size: small;
+}
+
+.radio {
+  width: unset;
+  vertical-align: middle;
+  margin: 0 0.5rem 0 0;
+}
+
+.checkbox {
+  width: unset;
+  vertical-align: middle;
+  margin: 0 0.5rem 0 0;
+}
+
+textarea {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+button {
+  margin: 50px 0 50px 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #37af65;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,52 @@
+body{
+    background-color: #1B1B32;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label{
+    display: block;
+}
+
+div{
+    margin: auto;
+    width: 70%;
+    
+}
+
+h1,p{
+    text-align: center;
+    margin: 1em auto
+}
+
+form{
+    margin: 0 auto;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    padding-bottom: 2rem;
+}
+
+fieldset{
+    border: none;
+    padding: 2rem 0;
+}
+
+label{
+    display: block; 
+    margin: 0.5rem 0;
+}
+
+input{
+    background-color: #0A0A23;
+    width: 100%;
+    border: none;
+    height: 2em;
+    margin: 7px 0 7px 0;
+}
+
+fieldset:not(:last-of-type){
+    
+    border-bottom: 3px solid #3B3B4F;
+
+}
